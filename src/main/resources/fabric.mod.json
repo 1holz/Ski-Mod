@@ -3,7 +3,7 @@
     "name": "Template Mod",
     "id": "ehtemp",
     "version": "${version}",
-    "icon": "assets/modid/icon.png",
+    "icon": "assets/ehtemp/icon.png",
     "description": "Lorem ipsum",
     "authors": [
         "Albert_Einholz"
