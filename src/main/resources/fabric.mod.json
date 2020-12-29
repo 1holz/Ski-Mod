@@ -1,25 +1,25 @@
 {
     "schemaVersion": 1,
-    "name": "Template Mod",
-    "id": "ehtemp",
+    "name": "Ski Mod",
+    "id": "ehski",
     "version": "${version}",
-    "icon": "assets/modid/icon.png",
-    "description": "Lorem ipsum",
+    "icon": "assets/ehski/icon.png",
+    "description": "This will be a mod that contains skis and other wintersport equipment.",
     "authors": [
         "Albert_Einholz"
     ],
     "contact": {
         "homepage": "https://www.curseforge.com/members/albert_einholz/projects",
-        "sources": "https://github.com/Albert-Einholz"
+        "sources": "https://github.com/Albert-Einholz/Ski-Mod"
     },
     "license": "Apache-2.0 Licence",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "de.alberteinholz.ehtemp.TemplateMod"
+            "de.alberteinholz.ehski.SkiMod"
         ],
         "client": [
-            "de.alberteinholz.ehtemp.TemplateMod"
+            "de.alberteinholz.ehski.SkiMod"
         ]
     },
     "mixins": [],

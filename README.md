@@ -1,1 +1,1 @@
-Just a personal template for my minecraft mods.
+This will be a mod that contains skis and other wintersport equipment.
