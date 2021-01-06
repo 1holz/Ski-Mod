@@ -1,10 +1,12 @@
 package de.alberteinholz.ehski;
 
 import de.alberteinholz.ehski.entity.Skies;
+import de.alberteinholz.ehski.entity.renderer.SkiesRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
@@ -28,7 +30,9 @@ public class SkiMod implements ModInitializer, ClientModInitializer {
 	@Environment(EnvType.CLIENT)
 	@Override
 	public void onInitializeClient() {
-		
+		EntityRendererRegistry.INSTANCE.register(SKIES, (ctx) -> {
+            return new SkiesRenderer(ctx);
+        });
 	}
 
 }
